@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+*.log
+local_settings.py
+media/
+staticfiles/
+
+# Django Migrations (uncomment if you prefer a clean history)
+# realApp/*/migrations/[0-9]*.py
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+.suo
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / env vars
+.env
+.env.*
+
+# Misc
+*.bak
+*.tmp
